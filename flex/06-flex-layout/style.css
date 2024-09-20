@@ -24,3 +24,50 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 12px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.footer {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  background-color: gainsboro;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(90, 89, 89);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+}
